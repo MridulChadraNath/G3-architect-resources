@@ -106,5 +106,25 @@ nav li a{
     color:#727272;
     margin: 0px 0px 20px 0px;
 }
+/* Some fact card container section */
+.some-facts{
+    padding-left: 250px;
+}
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    border: 1px solid #131313;
+    gap: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    font-weight: 600;
+    align-items: center;
+    padding-top: 50px;
+
+}
 
 

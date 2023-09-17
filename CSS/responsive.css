@@ -19,6 +19,13 @@
         grid-template-columns: 1fr;
         padding: 0px;
     }
+    .some-facts{
+        padding-left: 30px;
+    }
+
+    .fact-card-container{
+        flex-direction: column;
+    }
 }
 
 /* For medium screen or Tablet devices */
@@ -38,5 +45,13 @@
     .image-container{
         grid-template-columns: repeat(2,1fr);
         padding: 0px;
+    }
+
+    .some-facts{
+        padding-left: 30px;
+    }
+
+    .fact-card-container{
+        flex-direction: column;
     }
 }
